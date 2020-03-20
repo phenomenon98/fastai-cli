@@ -1,6 +1,6 @@
 # Image classification on Terminal using fast.ai 
 
-This is a tool that lets you build an image classifier with a simgle terminal command. 
+This tool lets you build an image classifier with a simgle terminal command. 
 
 ## Installation
 

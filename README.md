@@ -14,21 +14,21 @@ Data must be arranged into 3 folders- train test and valid in the form:
 <br>
 /data<br>
 &nbsp;&nbsp;&nbsp;&nbsp;/train<br>
-         /class1<br>
-         /class2<br>
-         /class3<br>
-     /valid<br>
-         /class1<br>
-         /class2<br>
-         /class3<br>
-    /test <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/class1<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/class2<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/class3<br>
+&nbsp;&nbsp;&nbsp;&nbsp;/valid<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/class1<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/class2<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/class3<br>
+&nbsp;&nbsp;&nbsp;&nbsp;/test <br>
 
 ### Organizing data
 In order to arrange data in this format simply run organize.py with the pathname of the folder containing the data and the classes of data in the folder. The data folder should be of the form:
 /data<br>
-	 /class1<br>
-	 /class2<br>
-	 /class3<br>
+&nbsp;&nbsp;&nbsp;&nbsp;/class1<br>
+&nbsp;&nbsp;&nbsp;&nbsp;/class2<br>
+&nbsp;&nbsp;&nbsp;&nbsp;/class3<br>
 
 ```
 $ python3 organize.py pathtodata

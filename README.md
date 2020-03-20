@@ -13,7 +13,7 @@ Clone the repo and navigate to the folder on Terminal.
 Data must be arranged into 3 folders- train test and valid in the form:
 <br>
 /data<br>
-     /train<br>
+&nbsp;&nbsp;&nbsp;&nbsp;/train<br>
          /class1<br>
          /class2<br>
          /class3<br>
@@ -52,4 +52,4 @@ $ python3 main.py pathtodata
 
 ```
 
-Optionally you can specify a custom batchsize and the number of epochs to train the model. After the model is done training it will be saved as model.pkl. This can then be used to measure accuracy using test data or it can be deployed to perform inference on images.
+Optionally you can specify a custom batchsize and the number of epochs to train the model. After the model is done training it will be saved as model.pkl. 

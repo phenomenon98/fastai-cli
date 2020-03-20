@@ -1,6 +1,6 @@
 # Image classification on Terminal using fast.ai 
 
-This tool lets you build an image classifier with a simgle terminal command. 
+This tool lets you build an image classifier with a single terminal command. 
 
 ## Installation
 
@@ -10,7 +10,7 @@ Clone the repo and navigate to the folder on Terminal.
 
 ## Data
 
-Data must be arranged into 3 folders- train test and valid in the form:
+Data must be arranged into 3 folders, train test and valid, in the form:
 <br>
 /data<br>
 &nbsp;&nbsp;&nbsp;&nbsp;/train<br>

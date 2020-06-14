@@ -47,4 +47,6 @@ $ python3 main.py pathtodata
 Optionally you can specify a custom batchsize and the number of epochs to train the model. After the model is done training it will be saved as model.pkl. 
 
 ## Coming soon
-Transfer learning on other base models.
+* Transfer learning on other base models.
+* Finetuning base model
+* Visualizations

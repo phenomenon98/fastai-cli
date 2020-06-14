@@ -1,6 +1,6 @@
 # Image classification on Terminal using fast.ai 
 
-This tool lets you build an image classifier with a single terminal command. 
+This tool lets you build an image classifier with a single terminal command by using resnet101 as a feature extractor.
 
 ## Installation
 
@@ -29,6 +29,7 @@ The data folder should be of the form:<br>
 &nbsp;&nbsp;&nbsp;&nbsp;/class1<br>
 &nbsp;&nbsp;&nbsp;&nbsp;/class2<br>
 &nbsp;&nbsp;&nbsp;&nbsp;/class3<br>
+This can be done by installing the [split-folders library](https://pypi.org/project/split-folders/)
 
 
 ## Parameters
@@ -44,8 +45,12 @@ The data folder should be of the form:<br>
 Run the main.py script
 
 ```
+
 $ python3 main.py pathtodata 
 
 ```
 
 Optionally you can specify a custom batchsize and the number of epochs to train the model. After the model is done training it will be saved as model.pkl. 
+
+## Coming soon
+Transfer learning on other base models.

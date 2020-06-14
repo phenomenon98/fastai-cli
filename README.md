@@ -23,12 +23,6 @@ Data must be arranged into 3 folders, train test and valid, in the form:
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/class3<br>
 &nbsp;&nbsp;&nbsp;&nbsp;/test <br>
 
-### Organizing data
-The data folder should be of the form:<br>
-/data<br>
-&nbsp;&nbsp;&nbsp;&nbsp;/class1<br>
-&nbsp;&nbsp;&nbsp;&nbsp;/class2<br>
-&nbsp;&nbsp;&nbsp;&nbsp;/class3<br>
 This can be done by installing the [split-folders library](https://pypi.org/project/split-folders/)
 
 

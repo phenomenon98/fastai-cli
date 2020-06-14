@@ -1,6 +1,6 @@
 # Image classification on Terminal using fast.ai 
 
-This tool lets you build an image classifier with a single terminal command by using resnet101 as a feature extractor.
+This tool lets you build an image classifier with a single terminal command by using resnet50 as a feature extractor.
 
 ## Installation
 
